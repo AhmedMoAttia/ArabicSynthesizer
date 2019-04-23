@@ -38,8 +38,8 @@ In this paper, we propose a text-to-speech voice building strategy, that enables
 
 **Arabic Speech Corpus**   This Speech corpus was used to train prototyping Arabic model. It has been developed as part of PhD work carried out by Nawar Halabi at the University of Southampton. The corpus was recorded in south Levantine Arabic (Damascian accent) using a professional studio. Synthesized speech as an output using this corpus has produced a high quality, natural voice. It is released under the non-commercial creative commons license.
 
-**Duration modeling       **  Merlin models duration using a separate DNN to the acoustic model. The duration model is trained on the aligned data, to predict phone- and/or state-level durations. At synthesis time, duration is predicted first, and is used as an input to the acoustic model to predict the speech parameters.
+**Duration modeling**  Merlin models duration using a separate DNN to the acoustic model. The duration model is trained on the aligned data, to predict phone- and/or state-level durations. At synthesis time, duration is predicted first, and is used as an input to the acoustic model to predict the speech parameters.
 
 **Acoustic modeling**   Merlin includes implementations of several currently-popular acoustic models, each of which comes with an example &#39;recipe&#39; to demonstrate its use.
 
-**Feed forward neural network       ** is the simplest type of network. With enough layers, this architecture is usually called a Deep Neural Network (DNN). The input is used to predict the output via several layers of hidden units.
+**Feed forward neural network** is the simplest type of network. With enough layers, this architecture is usually called a Deep Neural Network (DNN). The input is used to predict the output via several layers of hidden units.
